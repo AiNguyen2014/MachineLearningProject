@@ -20,6 +20,7 @@ Do dữ liệu gen thường có số chiều rất lớn, nhiều nhiễu và c
 🔹 2. Hierarchical Clustering là phương pháp phân cụm theo cấu trúc phân cấp, không cần xác định trước số cụm. Thuật toán xây dựng cây phân cấp (dendrogram) bằng cách:
   - Gộp dần các điểm hoặc cụm gần nhau (Agglomerative)
   - Hoặc tách dần từ một cụm lớn (Divisive)
+
 🔹 3. Gaussian Mixture Model (GMM)
 GMM là mô hình phân cụm dựa trên xác suất, giả định dữ liệu được sinh ra từ nhiều phân phối Gaussian khác nhau. Mỗi điểm dữ liệu được gán vào cụm dựa trên xác suất thuộc về từng Gaussian, thay vì gán cứng như K-Means.
 🔗 Ensemble Learning trong phân cụm: Sau khi thực hiện phân cụm bằng các mô hình đơn lẻ, nhóm áp dụng Ensemble Clustering để tổng hợp kết quả.
